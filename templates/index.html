@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block content %}
+<h1 class="logo"><span class="blue">Blue</span><span class="gold">Gold</span></h1>
+<ol id="bluegold-list">
+{% for n in my_list %}
+<li>{{n}}</li>
+{% endfor %}
+</ol>
+{% endblock %}
